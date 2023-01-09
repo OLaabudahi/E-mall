@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Checkout | E-MALL</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/price-range.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/edit-style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+	<header id="header"><!--header-->
+		
+		<div class="header-middle"><!--header-middle-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="logo pull-left">
+							<a href="index.html"><img src="images/home/logo-2.png" alt="" /></a>
+						</div>
+					</div>
+					<div class="col-sm-8">
+						<div class="shop-menu pull-right">
+							<ul class="nav navbar-nav">
+								<li><a href="account.html" class="active"><i class="fa fa-user"></i> الحساب</a></li>
+								<li><a href="favorite.html"><i class="fa fa-star"></i> المفضلة</a></li>
+								<li><a href="checkout.html"><i class="fa fa-crosshairs"></i> الدفع</a></li>
+								<li><a href="cart.html"><i class="fa fa-shopping-cart"></i> عربة التسوق</a></li>
+								<li><a href="login.html"><i class="fa fa-lock"></i> تسجيل الدخول</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-middle-->
+	
+		<div class="header-bottom"><!--header-bottom-->
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-9">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="mainmenu pull-left">
+							<ul class="nav navbar-nav collapse navbar-collapse">
+								<li><a href="index.html">الرئيسية</a></li>
+								<li><a href="shop.html">المنتجات</a></li>
+								<li><a href="contact-us.html">تواصل معنا</a></li>
+								<li><a href="control-panel.html">لوحة التحكم</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="search_box pull-right">
+							<input type="text" placeholder="بحث"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!--/header-bottom-->
+	</header><!--/header-->
+
+	<section id="cart_items">
+		<div class="container">
+			<div class="breadcrumbs">
+				<ol class="breadcrumb">
+				  <li><a href="#">الرئيسية</a></li>
+				  <li class="active">الدفع</li>
+				</ol>
+			</div><!--/breadcrums-->
+
+			
+
+			<div class="shopper-informations">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="shopper-info">
+							<p>معلومات المتسوق</p>
+							<form>
+								<!--<input type="text" placeholder="اس">-->
+								<input type="text" placeholder="اسم المستخدم">
+								<input type="password" placeholder="كلمة المرور">
+								<input type="password" placeholder="تأكيد كلمة المرور">
+							</form>
+							<!--a class="btn btn-primary" href="">Get Quotes</a>-->
+							<a class="btn btn-primary" href="">تأكيد</a>
+						</div>
+					</div>
+					<div class="col-sm-8 clearfix">
+						<div class="bill-to">
+							<p>فاتورة الى</p>
+							<div class="form-one">
+								<form>
+									<input type="text" placeholder="اسم الشركة">
+									<input type="text" placeholder="الايميل*">
+									<input type="text" placeholder="اللقب">
+									<input type="text" placeholder="الاسم الأول *">
+									<input type="text" placeholder="الاسم الوسط">
+									<input type="text" placeholder="الاسم الاخير *">
+									<input type="text" placeholder="العنوان 1 *">
+									<input type="text" placeholder="العنوان 2">
+								</form>
+							</div>
+							<div class="form-two">
+								<form>
+									<input type="text" placeholder="الرمز البريدي *">
+									<select>
+										<option>-- الدولة --</option>
+										<option>الولايات المتجدة</option>
+										<option>بريطانيا</option>
+										<option>الهند</option>
+										<option>باكستان</option>
+										<option>أوكرانيا</option>
+										<option>كندا</option>
+										<option>دبي</option>
+									</select>
+									<select>
+										<option>-- الدولة / المقاطعة / المنطقة --</option>
+										<option>الولايات المتجدة</option>
+										<option>بريطانيا</option>
+										<option>الهند</option>
+										<option>باكستان</option>
+										<option>أوكرانيا</option>
+										<option>كندا</option>
+										<option>دبي</option>
+									</select>
+									<input type="password" placeholder="تأكيد كلمة المرور">
+									<input type="text" placeholder="الهاتف *">
+									<input type="text" placeholder="فاكس">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="review-payment">
+				<h2>المراجعة والدفع</h2>
+			</div>
+
+			<div class="table-responsive cart_info">
+				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu">
+							<td class="image">المنتج</td>
+							<td class="description"></td>
+							<td class="price">السعر</td>
+							<td class="quantity">الكمية</td>
+							<td class="total">المجموع</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="cart_product">
+								<a href=""><img src="images/cart/one.png" alt=""></a>
+							</td>
+							<td class="cart_description">
+								<h4><a href="">منتج 1</a></h4>
+							</td>
+							<td class="cart_price">
+								<p>$59</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">$59</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="cart_product">
+								<a href=""><img src="images/cart/two.png" alt=""></a>
+							</td>
+							<td class="cart_description">
+								<h4><a href="">منتج 2</a></h4>
+							</td>
+							<td class="cart_price">
+								<p>$59</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">$59</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td class="cart_product">
+								<a href=""><img src="images/cart/three.png" alt=""></a>
+							</td>
+							<td class="cart_description">
+								<h4><a href="">منتج 3</a></h4>
+							</td>
+							<td class="cart_price">
+								<p>$59</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">$59</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="4">&nbsp;</td>
+							<td colspan="2">
+								<table class="table table-condensed total-result">
+									<tr>
+										<td>مجموع عربة التسوق</td>
+										<td>$59</td>
+									</tr>
+									<tr>
+										<td>الضريبة</td>
+										<td>$2</td>
+									</tr>
+									<tr class="shipping-cost">
+										<td>تكاليف الشحن</td>
+										<td>مجانا</td>										
+									</tr>
+									<tr>
+										<td>الاجمالي</td>
+										<td><span>$61</span></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="payment-options">
+					<span>
+						<label><input type="checkbox"> تحويل مصرفي مباشر</label>
+					</span>
+					<span>
+						<label><input type="checkbox"> باي بال</label>
+					</span>
+				</div>
+		</div>
+	</section> <!--/#cart_items-->
+
+	
+
+	<footer id="footer"><!--Footer-->
+		
+		<div class="footer-widget">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-sm-4">
+						<div class="companyinfo" style="margin-top: 5px;">
+							<h2 style="font-size: 38px;"><span>e</span>-mall</h2>
+							<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>-->
+						</div>
+					</div>
+
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>روابط</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">الرئيسية</a></li>
+								<li><a href="#">الحساب</a></li>
+								<li><a href="#">المفضلة</a></li>
+								<li><a href="#">عربة التسوق</a></li>
+								<li><a href="#">التسجيل</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>تسوق سريع</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">تي شيرت</a></li>
+								<li><a href="#">رجالي</a></li>
+								<li><a href="#">حريمي</a></li>
+								<li><a href="#">بطاقات الهدايا</a></li>
+								<li><a href="#">أحذية</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col-sm-2">
+						<div class="single-widget">
+							<h2>عن المتجر</h2>
+							<ul class="nav nav-pills nav-stacked">
+								<li><a href="#">معلومات الشركة</a></li>
+								<li><a href="#">الوظائف</a></li>
+								<li><a href="#">موقع المتجر</a></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<p style="text-align: center;">Copyright © <script>document.write(new Date().getFullYear());</script> E-MALL Inc. جميع الحقوق محفوظة</p>
+				</div>
+			</div>
+		</div>
+		
+	</footer><!--/Footer-->
+	
+
+
+    <script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
